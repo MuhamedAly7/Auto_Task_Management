@@ -64,7 +64,7 @@ install:
 # Creating systemd daemon/service file for application
 	@echo "[Unit]" > ${SYSD_SERVICE_FILE}
 	@echo "Description=Task Executor Service" >> ${SYSD_SERVICE_FILE}
-	@echo "Documentation=https://github.com/MuhamedAly7/auto_task_management" >> ${SYSD_SERVICE_FILE}
+	@echo "Documentation=https://github.com/MuhamedAly7/Auto_Task_Management" >> ${SYSD_SERVICE_FILE}
 	@echo "" >> ${SYSD_SERVICE_FILE}
 	@echo "[Service]" >> ${SYSD_SERVICE_FILE}
 	@echo "Type=simple" >> ${SYSD_SERVICE_FILE}
