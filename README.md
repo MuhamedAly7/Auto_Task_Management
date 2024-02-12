@@ -41,7 +41,7 @@ make install
 ```
 This will create the necessary configuration files, systemd service file, and bash aliases.
 
-### Uninstallation
+## Uninstallation
 To uninstall the application, run:
 ```bash
 make uninstall
